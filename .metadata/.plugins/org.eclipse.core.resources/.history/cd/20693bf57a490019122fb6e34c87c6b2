@@ -1,0 +1,32 @@
+package InteerfaceConcept;
+
+public class Developing implements bankingClient {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+	@Override
+	public void paycreditCard() {
+		// TODO Auto-generated method stub
+		System.out.println("paycreditCard....!");
+	}
+
+	@Override
+	public void transferBalance() {
+		// TODO Auto-generated method stub
+		System.out.println("transferBalance....!");
+	}
+
+	@Override
+	public void checkingBalance() {
+		// TODO Auto-generated method stub
+		System.out.println("checkingBalance....!");
+	}
+	
+	public void loginSite() {
+		
+	}
+
+}

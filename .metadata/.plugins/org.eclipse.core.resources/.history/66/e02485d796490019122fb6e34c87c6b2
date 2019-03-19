@@ -1,0 +1,15 @@
+package superKeyDemo;
+
+public class childDemo extends parentDemo {
+
+	
+		String Name="Mannepula";
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+		
+
+	}
+
+}

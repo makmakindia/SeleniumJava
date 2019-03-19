@@ -1,0 +1,14 @@
+package superKeyDemo;
+
+public class parentDemo {
+
+	String Name="ArunKumar";
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+	}
+
+}

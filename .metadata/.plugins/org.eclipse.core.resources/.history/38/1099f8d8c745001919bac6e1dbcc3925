@@ -1,0 +1,17 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class j21SyncSample {
+
+	public static void main(String[] args) {
+		//http://www.itgeared.com/demo/1506-ajax-loading.html
+		System.setProperty("webdriver.chrome.driver", "D:\\work\\Selenium\\Drivers\\new\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		
+		driver.get("http://www.itgeared.com/demo/1506-ajax-loading.html");
+		
+
+	}
+
+}

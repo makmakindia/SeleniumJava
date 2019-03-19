@@ -1,0 +1,17 @@
+package JavaCollections;
+
+import java.util.LinkedList;
+
+public class j01ListLinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		LinkedList<Integer> ll=new LinkedList<Integer>();
+		ll.add(10);
+		ll.add(101);
+		System.out.println(ll);
+	}
+
+}

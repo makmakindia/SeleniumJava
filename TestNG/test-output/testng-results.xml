@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Dept" duration-ms="6477" started-at="2019-03-15T16:29:05Z" finished-at="2019-03-15T16:29:11Z">
+    <groups>
+      <group name="E2E">
+        <method signature="globalParams.OpenBrowser()[pri:0, instance:test.Basics@77f03bb1]" name="OpenBrowser" class="test.globalParams"/>
+      </group> <!-- E2E -->
+    </groups>
+    <test name="Test" duration-ms="6477" started-at="2019-03-15T16:29:05Z" finished-at="2019-03-15T16:29:11Z">
+      <class name="test.Basics">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:test.Basics@77f03bb1]" name="OpenBrowser" duration-ms="6452" started-at="2019-03-15T21:59:05Z" finished-at="2019-03-15T21:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+      </class> <!-- test.Basics -->
+    </test> <!-- Test -->
+  </suite> <!-- Loan Dept -->
+</testng-results>

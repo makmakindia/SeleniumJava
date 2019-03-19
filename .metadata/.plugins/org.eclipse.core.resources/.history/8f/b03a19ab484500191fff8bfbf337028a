@@ -1,0 +1,20 @@
+package LogicsMaths;
+
+// Prime Number divides itself and 1 
+
+
+public class findPrimeNumbers {
+
+	public static boolean isPrimeNumber(int prime) {
+		return false;
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package JournalDev;
+
+public class j02demoConstructor {
+
+	j02demoConstructor(){
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package JavaCollections;
+
+import java.util.HashSet;
+
+public class j02HashSetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// HashSet,  treeSet, LinkedHashSet - implements set interface
+		// Does not accepts duplicate
+		// no guarantee that elements stores sequential order.. Random orfder
+		
+		
+		HashSet hs=new HashSet<Object>();
+		
+		
+		
+		
+		
+	}
+
+}

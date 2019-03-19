@@ -1,0 +1,14 @@
+package LogicsMaths;
+
+public class j20Synchronization {
+
+	public static void main(String[] args) {
+		
+		/* Implicit Wait Explicit Wait Thread.sleep Fluent Wait		 */
+		// https://alaskatrips.poweredbygps.com
+		
+		
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package InteerfaceConcept;
+
+public interface InterfaceConcept {
+
+}

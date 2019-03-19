@@ -1,0 +1,17 @@
+package javaOOPS;
+
+public class ConstructorDemo {
+	
+	public ConstructorDemo() {
+		System.out.println("I'm constuctor.....!");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ConstructorDemo cd=new ConstructorDemo();
+		
+		
+	}
+
+}

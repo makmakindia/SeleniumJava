@@ -1,0 +1,22 @@
+package JavaCollections;
+
+import java.util.ArrayList;
+
+public class j01ListsArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<String> al=new ArrayList<String>();
+		al.add("Arun");
+		al.add("Java");
+		//al.add(0, "Kumar");
+		al.add(0,"Student");
+		System.out.println(al);
+		al.remove(0);
+		al.remove("Java");
+	System.out.println(al);
+		
+	}
+
+}

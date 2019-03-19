@@ -1,0 +1,15 @@
+package javaOOPS;
+
+public class Basics1 {
+
+	public static void main(String[] args) {
+		// single line comments 
+		/*
+		 multiline comments 
+		 */
+		
+		System.out.println("Wleocme to java basics ....!");
+
+	}
+
+}

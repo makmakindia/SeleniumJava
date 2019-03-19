@@ -1,0 +1,10 @@
+package AccessModifier;
+
+public class j04PublicAccessDemoMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

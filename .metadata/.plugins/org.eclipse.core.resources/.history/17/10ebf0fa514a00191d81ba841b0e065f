@@ -1,0 +1,10 @@
+package AccessModifier;
+
+public class j03ProtectedAccessDemoMain extends j03ProtectedAccessDemo{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

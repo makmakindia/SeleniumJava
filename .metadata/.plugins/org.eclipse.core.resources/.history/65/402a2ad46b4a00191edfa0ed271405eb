@@ -1,0 +1,25 @@
+package JournalDev;
+
+public class j02demoConstructor {
+
+	static int i;
+	public j02demoConstructor(){
+		i=10;
+		System.out.println("No args constructor ");
+	}
+	public j02demoConstructor(String Name) {
+		System.out.println(Name);
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		j02demoConstructor m=new j02demoConstructor("Arun");
+		System.out.println(" i : "+i);
+		String str="Arun";
+		System.out.println(str.toCharArray().length());
+	}
+
+}

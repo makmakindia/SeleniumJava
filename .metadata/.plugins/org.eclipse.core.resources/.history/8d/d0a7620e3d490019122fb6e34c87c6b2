@@ -1,0 +1,25 @@
+package javaOOPS;
+
+public class Parents {
+
+	public static void main(String[] args) {
+		
+		
+		Methods m=new Methods();
+		
+		
+		/*
+		  single line comments 
+		
+		System.out.println("Wleocme to java basics ....!");
+		// Add 2 and 3 return result 
+		int a=10;
+		int b=20;
+		
+	int sum=a+b;
+	System.out.println("Sum of 10 & 20 is  "+sum);
+
+		 */
+	}
+
+}

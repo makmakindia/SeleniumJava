@@ -1,0 +1,9 @@
+package InteerfaceConcept;
+
+public class DomainClient {
+	
+	public static void main(String args[]) {
+		
+	}
+
+}

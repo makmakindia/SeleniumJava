@@ -1,0 +1,19 @@
+package superKeyDemo;
+
+public class childDemo extends parentDemo {
+
+	
+		String Name="Mannepula";
+		
+		public void getStringData() {
+			System.out.println(Name);
+		}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	childDemo cd=new childDemo();
+		
+
+	}
+
+}

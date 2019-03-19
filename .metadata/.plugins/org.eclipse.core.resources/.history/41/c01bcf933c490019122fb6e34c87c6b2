@@ -1,0 +1,10 @@
+package javaOOPS;
+
+public class Basic2 {
+
+	public void validateHeader() {
+		
+
+	}
+
+}

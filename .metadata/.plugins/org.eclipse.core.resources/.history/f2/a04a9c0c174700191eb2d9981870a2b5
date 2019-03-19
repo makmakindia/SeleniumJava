@@ -1,0 +1,30 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class j23FramesDragDrop {
+
+	public static void main(String[] args) {
+		// http://jqueryui.com/droppable/
+		
+
+		System.setProperty("webdriver.chrome.driver", "D:\\work\\Selenium\\Drivers\\new\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://jqueryui.com/droppable/");
+		WebElement wed= driver.findElement(By.xpath("//iframe[@class='demo-frame']"));
+		driver.switchTo().frame(wed);
+		driver.findElement(By.id("draggable")).click();
+		
+		WebElement source=driver.findElement(By.xpath("//div[@id='draggable']"));
+		
+		WebElement target=driver.findElement(By.xpath("//div[@id='droppable']"));
+		
+		Actions a = new Actions(driver);
+		a.dragAndDrop(source, target);
+		
+		driver.quit();
+	}
+
+}

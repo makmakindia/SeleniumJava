@@ -1,0 +1,21 @@
+package javaOOPS;
+
+public class Basics1 {
+
+	public static void main(String[] args) {
+		// single line comments 
+		/*
+		 multiline comments 
+		 */
+		
+		System.out.println("Wleocme to java basics ....!");
+		// Add 2 and 3 return result 
+		int a=10;
+		int b=20;
+		
+	int sum=a+b;
+	System.out.println("Sum of 10 & 20 : "+sum);
+
+	}
+
+}

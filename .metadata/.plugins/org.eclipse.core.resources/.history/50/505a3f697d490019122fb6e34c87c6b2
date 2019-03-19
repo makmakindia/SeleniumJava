@@ -1,0 +1,22 @@
+package javaOOPS;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		
+		
+		int a[]=new int[5];
+		
+		a[0]=7;
+		a[1]=1;
+		a[2]=5;
+		a[3]=3;
+		a[4]=4;
+		
+		for(int i;i<a.length;i++) {
+			System.out.println(a[i]);
+		}
+
+	}
+
+}

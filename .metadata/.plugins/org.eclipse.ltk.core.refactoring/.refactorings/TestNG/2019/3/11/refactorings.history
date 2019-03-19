@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TestNG/testng5.xml&apos; to &apos;testng5TestLevelParamPrice.xml&apos;" description="Rename resource &apos;testng5.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="testng5.xml" name="testng5TestLevelParamPrice.xml" stamp="1552667153367" updateReferences="true"/>
+</session>

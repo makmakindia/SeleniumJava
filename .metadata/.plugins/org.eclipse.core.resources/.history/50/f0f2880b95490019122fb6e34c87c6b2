@@ -1,0 +1,27 @@
+package javaOOPS;
+
+public class ConstructorDemo {
+	
+	public ConstructorDemo() {
+		System.out.println("I'm in the constuctor.....!");
+	}
+	
+	public ConstructorDemo(int a,int b) {
+		System.out.println("I'm in the parameterized constuctor.....!");
+	}
+	
+	public void getData() {
+		System.out.println("getData............!");
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ConstructorDemo cd=new ConstructorDemo();
+		ConstructorDemo cd=new ConstructorDemo(4,5);
+		
+		
+	}
+
+}

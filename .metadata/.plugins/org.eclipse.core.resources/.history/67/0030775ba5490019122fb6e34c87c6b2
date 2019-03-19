@@ -1,0 +1,33 @@
+package ExceptionPkg;
+
+public class exceptionDemo {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		exceptionDemo obj=new exceptionDemo();
+		int i=4;
+		int b=7;
+		int c=0;
+		
+		try {
+		int k=b/c;
+		
+		
+		System.out.println(k);
+		
+		}
+		catch(ArithmeticException ate) {
+			System.out.println("ArithmeticException Error : "+ate);
+		}
+		catch(IndexOutOfBoundsException iobe) {
+			System.out.println("IndexOutOfBoundsException Error - "+iobe);
+			
+		}
+		catch(Exception e) {
+			System.out.println("c value is zero, user can devide value with zero "+e);
+		}
+		
+	}
+
+}

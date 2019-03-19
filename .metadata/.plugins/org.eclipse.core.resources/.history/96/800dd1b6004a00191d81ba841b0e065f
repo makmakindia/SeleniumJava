@@ -1,0 +1,10 @@
+package JavaCollections;
+
+public class j02HashSetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

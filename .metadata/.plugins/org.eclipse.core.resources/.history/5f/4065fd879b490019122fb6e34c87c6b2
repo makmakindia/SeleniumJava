@@ -1,0 +1,14 @@
+package PkgDemo1;
+
+public class demo1ClassS1 {
+	
+	public void demo1method1() {
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package JavaCollections;
+
+import java.util.LinkedList;
+
+public class j01ListLinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		LinkedList<Integer> ll=new LinkedList<Integer>();
+		ll.add(10); // adds element to linkedlist
+		ll.add(101);
+		System.out.println(ll);
+		ll.add(1001);
+		ll.add(10001);
+		
+		System.out.println(ll);
+		System.out.println(ll.getFirst());
+		System.out.println(ll.getLast());
+		ll.add(50);
+		System.out.println(ll);
+		ll.removeLast(); // remove element from liskedlist
+		System.out.println(ll);
+		System.out.println(ll.isEmpty());
+		System.out.println(ll.size());
+		
+	}
+
+}

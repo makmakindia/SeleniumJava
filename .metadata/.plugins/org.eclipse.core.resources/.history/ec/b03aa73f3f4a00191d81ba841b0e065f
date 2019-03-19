@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package javaOOPS;
+
+/**
+ * @author ARUNM
+ *
+ */
+public interface JavaInterface1 {
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package AccessModifier;
+
+public class j01PrivateAccessDemoAMain {
+
+	public static void main(String[] args) {
+		
+		
+		j01PrivateAccessDemoAClass a=new j01PrivateAccessDemoAClass();
+		a.i;
+		
+
+	}
+
+}

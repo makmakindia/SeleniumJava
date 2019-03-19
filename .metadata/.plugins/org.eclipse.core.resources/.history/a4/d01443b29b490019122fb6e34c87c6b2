@@ -1,0 +1,10 @@
+package PkgDemo2;
+
+public class demo2ClassS2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

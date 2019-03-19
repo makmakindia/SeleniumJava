@@ -1,0 +1,17 @@
+package JournalDev;
+
+public class j01JavaMethods {
+	
+	public void msgHello() {
+		System.out.println("msgHello method....!");
+	}
+
+	public static void main(String[] args) {
+		
+		j01JavaMethods method = new j01JavaMethods();
+		
+		method.msgHello();
+
+	}
+
+}

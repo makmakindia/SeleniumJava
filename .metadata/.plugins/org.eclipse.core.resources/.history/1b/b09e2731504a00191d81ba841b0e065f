@@ -1,0 +1,12 @@
+package AccessModifier;
+
+public class j02DefaultaccessDemoMain {
+
+	public static void main(String[] args) {
+		
+		j02DefaultAccessDemoAClass d=new j02DefaultAccessDemoAClass();
+		
+
+	}
+
+}

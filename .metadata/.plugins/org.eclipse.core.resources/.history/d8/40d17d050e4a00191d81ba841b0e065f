@@ -1,0 +1,12 @@
+package JavaCollections;
+
+public class j03HashMapDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			HashMap<Integer><Inetger> hm=new HashMap();
+			
+	}
+
+}

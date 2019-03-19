@@ -1,0 +1,13 @@
+package JavaCollections;
+
+public class j01ListsArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList al=new ArrayList();
+		
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package LogicsMaths;
+
+// Prime Number divides itself and 1 
+
+
+public class findPrimeNumbers {
+	
+	// 2 is lowest prime number 
+
+	public static boolean isPrimeNumber(int prime) {
+		
+		if(prime<=1) {
+			false
+		}
+		
+		return false;
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+	}
+
+}

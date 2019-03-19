@@ -1,0 +1,14 @@
+package AccessModifier;
+
+import AccessDemoDefaultPkg.j03ProtectedAccessDemo;
+
+public class j03ProtectedAccessDemoMain extends j03ProtectedAccessDemo{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		j03ProtectedAccessDemoMain pr=new j03ProtectedAccessDemoMain();
+		pr.msg();
+		
+	}
+
+}

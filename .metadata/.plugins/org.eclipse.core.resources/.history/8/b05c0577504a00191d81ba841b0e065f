@@ -1,0 +1,10 @@
+package AccessDemoDefaultPkg;
+
+public class j02DefaultDemoAccess {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package JavaCollections;
+
+import java.util.List;
+import java.util.Vector;
+
+public class j01ListVector {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List lV=new Vector();
+		
+		lV.add(101);
+		
+
+	}
+
+}

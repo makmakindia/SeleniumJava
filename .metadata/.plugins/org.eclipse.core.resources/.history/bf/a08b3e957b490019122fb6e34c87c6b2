@@ -1,0 +1,8 @@
+package InteerfaceConcept;
+
+public interface  DomainClient {
+	
+
+	
+
+}

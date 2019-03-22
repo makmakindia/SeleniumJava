@@ -17,7 +17,7 @@
   
   <test name="test">
   <classes>
-  <class name="test.carLoanTCs">
+  <class name="test.carLoanTCDataProvider">
     <methods>
     <exclude name="Mobile.*">
   

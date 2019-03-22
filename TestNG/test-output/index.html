@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Loan_Dept">
-              <span class="suite-name border-passed">Loan Dept</span>
+              <span class="suite-name border-skipped">Loan Dept</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Loan_Dept">
-                    <span>C:\Users\ARUNM\Selenium_udemy\TestNG\testng3.xml</span>
+                    <span>C:\Users\ARUNM\Selenium_udemy\TestNG\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Loan_Dept">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">10 methods,  2 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Loan_Dept" class="hide-methods skipped suite-Loan_Dept"> (hide)</a> <!-- hide-methods skipped suite-Loan_Dept -->
+                      <a href="#" panel-name="suite-Loan_Dept" class="show-methods skipped suite-Loan_Dept"> (show)</a> <!-- show-methods skipped suite-Loan_Dept -->
+                    </span>
+                    <div class="method-list-content skipped suite-Loan_Dept">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Dept" title="test.Basics2" hash-for-method="Test3">Test3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Dept" title="test.homeLoanTCs" hash-for-method="webLoginHomeLoan">webLoginHomeLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Loan_Dept -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +121,42 @@
                     <div class="method-list-content passed suite-Loan_Dept">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Dept" title="test.carLoanTCDataProvider" hash-for-method="APILoginCarLoan">APILoginCarLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Dept" title="test.homeLoanTCs" hash-for-method="APILoginHomeLoan">APILoginHomeLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Dept" title="test.Basics" hash-for-method="Demo">Demo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Loan_Dept" title="test.Basics" hash-for-method="OpenBrowser">OpenBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Dept" title="test.carLoanTCDataProvider" hash-for-method="WebLoginCarloan(SecondUSername, SecondPassword)">WebLoginCarloan(SecondUSername, SecondPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Dept" title="test.carLoanTCDataProvider" hash-for-method="WebLoginCarloan(ThirdUsername, ThirdPassword)">WebLoginCarloan(ThirdUsername, ThirdPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Dept" title="test.carLoanTCDataProvider" hash-for-method="WebLoginCarloan(Firstusername, Firstpassword)">WebLoginCarloan(Firstusername, Firstpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Dept" title="test.homeLoanTCs" hash-for-method="mobileLoginHomeLoan">mobileLoginHomeLoan</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Loan_Dept -->
@@ -117,12 +171,81 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Loan_Dept" class="panel Loan_Dept">
+          <div class="suite-Loan_Dept-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.homeLoanTCs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="webLoginHomeLoan">
+                  </a> <!-- webLoginHomeLoan -->
+                  <span class="method-name">webLoginHomeLoan</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;URL&apos; is required by @Test on method webLoginHomeLoan but has not been marked @Optional or defined
+in C:\Users\ARUNM\Selenium_udemy\TestNG\testng.xml
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Dept-class-skipped -->
+          <div class="suite-Loan_Dept-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.Basics2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test3">
+                  </a> <!-- Test3 -->
+                  <span class="method-name">Test3</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;TestLevelParamPriceValue&apos; is required by @Test on method Test3 but has not been marked @Optional or defined
+in C:\Users\ARUNM\Selenium_udemy\TestNG\testng.xml
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Dept-class-skipped -->
+          <div class="suite-Loan_Dept-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.homeLoanTCs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="APILoginHomeLoan">
+                  </a> <!-- APILoginHomeLoan -->
+                  <span class="method-name">APILoginHomeLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobileLoginHomeLoan">
+                  </a> <!-- mobileLoginHomeLoan -->
+                  <span class="method-name">mobileLoginHomeLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Dept-class-passed -->
           <div class="suite-Loan_Dept-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">test.Basics</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Demo">
+                  </a> <!-- Demo -->
+                  <span class="method-name">Demo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="OpenBrowser">
@@ -132,10 +255,49 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Loan_Dept-class-passed -->
+          <div class="suite-Loan_Dept-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.carLoanTCDataProvider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="APILoginCarLoan">
+                  </a> <!-- APILoginCarLoan -->
+                  <span class="method-name">APILoginCarLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WebLoginCarloan(SecondUSername, SecondPassword)">
+                  </a> <!-- WebLoginCarloan(SecondUSername, SecondPassword) -->
+                  <span class="method-name">WebLoginCarloan</span>
+                  <span class="parameters">(SecondUSername, SecondPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WebLoginCarloan(ThirdUsername, ThirdPassword)">
+                  </a> <!-- WebLoginCarloan(ThirdUsername, ThirdPassword) -->
+                  <span class="method-name">WebLoginCarloan</span>
+                  <span class="parameters">(ThirdUsername, ThirdPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WebLoginCarloan(Firstusername, Firstpassword)">
+                  </a> <!-- WebLoginCarloan(Firstusername, Firstpassword) -->
+                  <span class="method-name">WebLoginCarloan</span>
+                  <span class="parameters">(Firstusername, Firstpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Dept-class-passed -->
         </div> <!-- panel Loan_Dept -->
         <div panel-name="test-xml-Loan_Dept" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ARUNM\Selenium_udemy\TestNG\testng3.xml</span>
+            <span class="header-content">C:\Users\ARUNM\Selenium_udemy\TestNG\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,19 +305,45 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Loan Dept&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;E2E&quot;/&gt;
-        &lt;exclude name=&quot;Smoke&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.Basics&quot;/&gt;
       &lt;class name=&quot;test.Basics2&quot;/&gt;
       &lt;class name=&quot;test.homeLoanTCs&quot;/&gt;
-      &lt;class name=&quot;test.carLoanTCs&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test name=&quot;test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.carLoanTCDataProvider&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;Mobile.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.carLoanTCDataProvider --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test --&gt;
+  &lt;test name=&quot;Test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.homeLoanTCs&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;prerequisite&quot;/&gt;
+          &lt;include name=&quot;Bmethods&quot;/&gt;
+          &lt;include name=&quot;Bsuite&quot;/&gt;
+          &lt;include name=&quot;webLoginHomeLoan&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.homeLoanTCs --&gt;
+      &lt;class name=&quot;test.Basics2&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Test3&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.Basics2 --&gt;
+      &lt;class name=&quot;test.Basics&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;BClass&quot;/&gt;
+          &lt;include name=&quot;ASuite&quot;/&gt;
+          &lt;include name=&quot;lastExecution&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.Basics --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Loan Dept --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -167,7 +355,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test(failed) (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -178,10 +372,14 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">E2E</span>
+              <span class="test-group-name">Smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">OpenBrowser</span>
+                <span class="method-in-group-name">APILoginHomeLoan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Demo</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -201,16 +399,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'OpenBrowser')
+data.setCell(0, 1, 'Demo')
 data.setCell(0, 2, 'test.Basics')
-data.setCell(0, 3, 6452);
+data.setCell(0, 3, 10518);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'OpenBrowser')
+data.setCell(1, 2, 'test.Basics')
+data.setCell(1, 3, 9196);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'APILoginCarLoan')
+data.setCell(2, 2, 'test.carLoanTCDataProvider')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'WebLoginCarloan')
+data.setCell(3, 2, 'test.carLoanTCDataProvider')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'WebLoginCarloan')
+data.setCell(4, 2, 'test.carLoanTCDataProvider')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'APILoginHomeLoan')
+data.setCell(5, 2, 'test.homeLoanTCs')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'mobileLoginHomeLoan')
+data.setCell(6, 2, 'test.homeLoanTCs')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'WebLoginCarloan')
+data.setCell(7, 2, 'test.carLoanTCDataProvider')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'webLoginHomeLoan')
+data.setCell(8, 2, 'test.homeLoanTCs')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test3')
+data.setCell(9, 2, 'test.Basics2')
+data.setCell(9, 3, 0);
 window.suiteTableData['Loan_Dept']= { tableData: data, tableDiv: 'times-div-Loan_Dept'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Loan_Dept">
               </div> <!-- times-div-Loan_Dept -->
             </div> <!-- times-div -->
@@ -225,7 +459,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Loan_Dept" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">9 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -233,36 +467,12 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">Test2</span>
                 <br/>
-                <span class="ignored-method-name">Demo</span>
-                <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">test.homeLoanTCs</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">mobileLoginHomeLoan</span>
-                <br/>
-                <span class="ignored-method-name">webLoginHomeLoan</span>
-                <br/>
-                <span class="ignored-method-name">APILoginHomeLoan</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">test.carLoanTCs</span>
+              <span class="ignored-class-name">test.carLoanTCDataProvider</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">MobileLoginCarLoan</span>
-                <br/>
-                <span class="ignored-method-name">APILoginCarLoan</span>
-                <br/>
-                <span class="ignored-method-name">WebLoginCarloan</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">test.Basics2</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">Test3</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -274,11 +484,82 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">test.homeLoanTCs</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Bsuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">prerequisite</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">test.Basics</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BClass</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Demo</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">OpenBrowser</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">10547 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.homeLoanTCs</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">APILoginHomeLoan</span>
+                <span class="method-start">19752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bmethods</span>
+                <span class="method-start">19752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Bmethods</span>
+                <span class="method-start">19754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mobileLoginHomeLoan</span>
+                <span class="method-start">19755 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Basics</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">lastExecution</span>
+                <span class="method-start">19760 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.carLoanTCDataProvider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">WebLoginCarloan(Firstusername, Firstpassword)</span>
+                <span class="method-start">19812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">WebLoginCarloan(SecondUSername, SecondPassword)</span>
+                <span class="method-start">19814 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">WebLoginCarloan(ThirdUsername, ThirdPassword)</span>
+                <span class="method-start">19816 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">APILoginCarLoan</span>
+                <span class="method-start">19820 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Basics</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">ASuite</span>
+                <span class="method-start">19840 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

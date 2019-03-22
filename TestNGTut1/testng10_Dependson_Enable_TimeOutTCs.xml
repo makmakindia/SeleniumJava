@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department Group Level TCs Exec">
+<!-- 	@Test(dependsOnMethods= {"WebLoginHomeLoan"}) declared in  day 4 before API Scenario -->
+<!--		@Test(enabled=false)
+	public void MobileLoginCarLoan() 
+	@Test(TimeOut=4000)
+	  -->
+	<test name="Regression">
+		<classes>
+			<class name="Test.RunningTestsWithoutJava" />
+			<class name="Test.day2" />
+			<class name="Test.day3" />
+			<class name="Test.day4" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -30,7 +30,7 @@ public class j10JavaScriptExecHidenctrls {
 		String text=(String) js.executeScript(script);
 		System.out.println(text);
 		int i=0;
-		while(!text.equalsIgnoreCase("ANANTHAGIRI -ARAKU")) {
+		while(!text.equalsIgnoreCase("ANANTAPUR")) {
 			i++;
 			driver.findElement(By.id("fromPlaceName")).sendKeys(Keys.DOWN);
 			text=(String) js.executeScript(script);
@@ -50,7 +50,7 @@ public class j10JavaScriptExecHidenctrls {
 			System.out.println("Value found");
 		}
 		
-		driver.quit();
+		//driver.quit();
 		
 		
 	}

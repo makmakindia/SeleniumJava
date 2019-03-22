@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parameters TCs" duration-ms="121" started-at="2019-03-22T18:18:55Z" finished-at="2019-03-22T18:18:55Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.ploan()[pri:0, instance:Test.day2@174d20a]" name="ploan" class="Test.day2"/>
+        <method signature="day3.MobileLoginCarLoan()[pri:0, instance:Test.day3@9629756]" name="MobileLoginCarLoan" class="Test.day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Regression" duration-ms="52" started-at="2019-03-22T18:18:55Z" finished-at="2019-03-22T18:18:55Z">
+      <class name="Test.RunningTestsWithoutJava">
+        <test-method status="PASS" signature="demoTestNg()[pri:0, instance:Test.RunningTestsWithoutJava@66d2e7d9]" name="demoTestNg" duration-ms="6" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTestNg -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:Test.RunningTestsWithoutJava@66d2e7d9]" name="secondTest" duration-ms="2" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="lastExec()[pri:0, instance:Test.RunningTestsWithoutJava@66d2e7d9]" name="lastExec" is-config="true" duration-ms="1" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExec -->
+      </class> <!-- Test.RunningTestsWithoutJava -->
+      <class name="Test.day2">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:Test.day2@174d20a]" name="prerequisite" is-config="true" duration-ms="1" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:Test.day2@174d20a]" name="ploan" duration-ms="1" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- Test.day2 -->
+      <class name="Test.day4">
+        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:Test.day4@1efbd816]" name="MobileLoginHomeLoan" duration-ms="2" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method status="PASS" signature="WebLoginHomeLoan(java.lang.String)[pri:0, instance:Test.day4@1efbd816]" name="WebLoginHomeLoan" duration-ms="2" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+        <test-method status="PASS" signature="APILoginHomeLoan()[pri:0, instance:Test.day4@1efbd816]" name="APILoginHomeLoan" duration-ms="2" started-at="2019-03-22T23:48:55Z" depends-on-methods="Test.day4.MobileLoginHomeLoan, Test.day4.WebLoginHomeLoan" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+      </class> <!-- Test.day4 -->
+    </test> <!-- Regression -->
+    <test name="Car Loan TCs" duration-ms="42" started-at="2019-03-22T18:18:55Z" finished-at="2019-03-22T18:18:55Z">
+      <class name="Test.day3">
+        <test-method status="PASS" signature="BSuite()[pri:0, instance:Test.day3@9629756]" name="BSuite" is-config="true" duration-ms="13" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BSuite -->
+        <test-method status="PASS" signature="APILoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@9629756]" name="APILoginCarLoan" duration-ms="2" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method status="PASS" signature="BMethod()[pri:0, instance:Test.day3@9629756]" name="BMethod" is-config="true" duration-ms="0" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMethod -->
+        <test-method status="PASS" signature="BMethod()[pri:0, instance:Test.day3@9629756]" name="BMethod" is-config="true" duration-ms="1" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMethod -->
+        <test-method status="PASS" signature="APISignInCarLoan()[pri:0, instance:Test.day3@9629756]" name="APISignInCarLoan" duration-ms="1" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APISignInCarLoan -->
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:Test.day3@9629756]" name="MobileLoginCarLoan" duration-ms="1" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method status="PASS" signature="BMethod()[pri:0, instance:Test.day3@9629756]" name="BMethod" is-config="true" duration-ms="0" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMethod -->
+        <test-method status="PASS" signature="BMethod()[pri:0, instance:Test.day3@9629756]" name="BMethod" is-config="true" duration-ms="1" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMethod -->
+        <test-method status="PASS" signature="MobileSignOutCarLoan()[pri:0, instance:Test.day3@9629756]" name="MobileSignOutCarLoan" duration-ms="2" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOutCarLoan -->
+        <test-method status="PASS" signature="BMethod()[pri:0, instance:Test.day3@9629756]" name="BMethod" is-config="true" duration-ms="0" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMethod -->
+        <test-method status="PASS" signature="WebLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@9629756]" name="WebLoginCarLoan" duration-ms="3" started-at="2019-03-22T23:48:55Z" data-provider="getDataProvidersValues" finished-at="2019-03-22T23:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstSetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstsetPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method status="PASS" signature="BMethod()[pri:0, instance:Test.day3@9629756]" name="BMethod" is-config="true" duration-ms="1" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMethod -->
+        <test-method status="PASS" signature="WebLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@9629756]" name="WebLoginCarLoan" duration-ms="3" started-at="2019-03-22T23:48:55Z" data-provider="getDataProvidersValues" finished-at="2019-03-22T23:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondsetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondsetPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method status="PASS" signature="BMethod()[pri:0, instance:Test.day3@9629756]" name="BMethod" is-config="true" duration-ms="2" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMethod -->
+        <test-method status="PASS" signature="WebLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@9629756]" name="WebLoginCarLoan" duration-ms="3" started-at="2019-03-22T23:48:55Z" data-provider="getDataProvidersValues" finished-at="2019-03-22T23:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdsetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdsetPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+      </class> <!-- Test.day3 -->
+      <class name="Test.day4">
+        <test-method status="PASS" signature="ASuite()[pri:0, instance:Test.day4@1efbd816]" name="ASuite" is-config="true" duration-ms="0" started-at="2019-03-22T23:48:55Z" finished-at="2019-03-22T23:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASuite -->
+      </class> <!-- Test.day4 -->
+    </test> <!-- Car Loan TCs -->
+  </suite> <!-- Parameters TCs -->
+</testng-results>

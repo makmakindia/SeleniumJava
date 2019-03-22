@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameters TCs]">
+  <parameter name="URL" value="google.com"/>
+  <test name="Regression(failed)">
+    <classes>
+      <class name="Test.RunningTestsWithoutJava">
+        <methods>
+          <include name="lastExec"/>
+        </methods>
+      </class> <!-- Test.RunningTestsWithoutJava -->
+      <class name="Test.day4">
+        <methods>
+          <include name="ASuite"/>
+        </methods>
+      </class> <!-- Test.day4 -->
+      <class name="Test.day3">
+        <methods>
+          <include name="BMethod"/>
+          <include name="WebLoginCarLoan"/>
+          <include name="BSuite"/>
+        </methods>
+      </class> <!-- Test.day3 -->
+      <class name="Test.day2">
+        <methods>
+          <include name="prerequisite"/>
+        </methods>
+      </class> <!-- Test.day2 -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Parameters TCs] -->

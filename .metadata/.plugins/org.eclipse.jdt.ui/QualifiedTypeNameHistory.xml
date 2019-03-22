@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.interactions.SendKeysAction"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.Platform"/>
@@ -28,7 +21,6 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
 <fullyQualifiedTypeName name="org.seleniumhq.jetty9.security.authentication.LoginAuthenticator"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
@@ -60,4 +52,12 @@
 <fullyQualifiedTypeName name="PkgDemo1.demo1ClassS1"/>
 <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
+<fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
+<fullyQualifiedTypeName name="cucumber.api.junit.Cucumber"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 </qualifiedTypeNameHistroy>

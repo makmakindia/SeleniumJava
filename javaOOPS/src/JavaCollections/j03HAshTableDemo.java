@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-public class j03HAshTableDemo {
+public class j03HashTableDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

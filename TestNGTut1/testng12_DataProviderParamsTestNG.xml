@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--  
+@Test(dataProvider="getDataProvidersValues")
+	public void WebLoginCarLoan(String dusername, String dPassword) {
+		System.out.println("WebLoginCarLoan....!");
+		System.out.println(" ********** User Name : "+dusername+" Password : "+dPassword+" ************");
+
+	}
+
+
+@DataProvider
+	public Object[][] getDataProvidersValues() {
+		
+		
+		Object[][] data=new Object[3][2];
+		
+		data[0][0]="FirstSetUsername";
+		data[0][1]="FirstsetPassword";
+		
+		data[1][0]="SecondsetUsername";
+		data[1][1]="SecondsetPassword";
+		
+		data[2][0]="ThirdsetUsername";
+		data[2][1]="ThirdsetPassword";
+		
+		return data;
+	}
+-->
+<suite name="Parameters TCs">
+
+	<parameter name="URL" value="http://google.com"/>
+	<test name="Regression">
+		<classes>
+			<class name="Test.RunningTestsWithoutJava" />
+			<class name="Test.day2" />
+		
+			<class name="Test.day4" />
+		</classes>
+	</test>
+	
+	<test name="Car Loan TCs">
+	<parameter name="CarLoanURL" value="http://facebook.com"/>
+	<parameter name="APIKey" value="1234567"/>
+	<classes>
+		<class name="Test.day3" />
+	</classes>
+	</test>
+
+</suite> <!-- Suite -->

@@ -1,20 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="2" failed="0" total="10" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan Dept" duration-ms="6477" started-at="2019-03-15T16:29:05Z" finished-at="2019-03-15T16:29:11Z">
+  <suite name="Loan Dept" duration-ms="19806" started-at="2019-03-21T18:27:21Z" finished-at="2019-03-21T18:27:41Z">
     <groups>
-      <group name="E2E">
-        <method signature="globalParams.OpenBrowser()[pri:0, instance:test.Basics@77f03bb1]" name="OpenBrowser" class="test.globalParams"/>
-      </group> <!-- E2E -->
+      <group name="Smoke">
+        <method signature="Basics.Demo()[pri:0, instance:test.Basics@21a06946]" name="Demo" class="test.Basics"/>
+        <method signature="homeLoanTCs.APILoginHomeLoan()[pri:0, instance:test.homeLoanTCs@483bf400]" name="APILoginHomeLoan" class="test.homeLoanTCs"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test name="Test" duration-ms="6477" started-at="2019-03-15T16:29:05Z" finished-at="2019-03-15T16:29:11Z">
+    <test name="Test" duration-ms="19744" started-at="2019-03-21T18:27:21Z" finished-at="2019-03-21T18:27:41Z">
+      <class name="test.homeLoanTCs">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:test.homeLoanTCs@483bf400]" name="prerequisite" is-config="true" duration-ms="0" started-at="2019-03-21T23:57:21Z" finished-at="2019-03-21T23:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="Bmethods()[pri:0, instance:test.homeLoanTCs@483bf400]" name="Bmethods" is-config="true" duration-ms="0" started-at="2019-03-21T23:57:41Z" finished-at="2019-03-21T23:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmethods -->
+        <test-method status="PASS" signature="APILoginHomeLoan()[pri:0, instance:test.homeLoanTCs@483bf400]" name="APILoginHomeLoan" duration-ms="1" started-at="2019-03-21T23:57:41Z" finished-at="2019-03-21T23:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method status="PASS" signature="Bmethods()[pri:0, instance:test.homeLoanTCs@483bf400]" name="Bmethods" is-config="true" duration-ms="1" started-at="2019-03-21T23:57:41Z" finished-at="2019-03-21T23:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmethods -->
+        <test-method status="PASS" signature="mobileLoginHomeLoan()[pri:0, instance:test.homeLoanTCs@483bf400]" name="mobileLoginHomeLoan" duration-ms="1" started-at="2019-03-21T23:57:41Z" finished-at="2019-03-21T23:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method status="SKIP" signature="webLoginHomeLoan(java.lang.String, java.lang.String)[pri:0, instance:test.homeLoanTCs@483bf400]" name="webLoginHomeLoan" duration-ms="0" started-at="2019-03-21T23:57:41Z" finished-at="2019-03-21T23:57:41Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method webLoginHomeLoan but has not been marked @Optional or defined
+in C:\Users\ARUNM\Selenium_udemy\TestNG\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method webLoginHomeLoan but has not been marked @Optional or defined
+in C:\Users\ARUNM\Selenium_udemy\TestNG\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1276)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:991)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1081)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+      </class> <!-- test.homeLoanTCs -->
+      <class name="test.Basics2">
+        <test-method status="SKIP" signature="Test3(java.lang.String)[pri:0, instance:test.Basics2@77f03bb1]" name="Test3" duration-ms="0" started-at="2019-03-21T23:57:41Z" finished-at="2019-03-21T23:57:41Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'TestLevelParamPriceValue' is required by @Test on method Test3 but has not been marked @Optional or defined
+in C:\Users\ARUNM\Selenium_udemy\TestNG\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'TestLevelParamPriceValue' is required by @Test on method Test3 but has not been marked @Optional or defined
+in C:\Users\ARUNM\Selenium_udemy\TestNG\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1276)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:991)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1081)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+      </class> <!-- test.Basics2 -->
       <class name="test.Basics">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:test.Basics@77f03bb1]" name="OpenBrowser" duration-ms="6452" started-at="2019-03-15T21:59:05Z" finished-at="2019-03-15T21:59:11Z">
+        <test-method status="PASS" signature="BClass()[pri:0, instance:test.Basics@21a06946]" name="BClass" is-config="true" duration-ms="1" started-at="2019-03-21T23:57:21Z" finished-at="2019-03-21T23:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BClass -->
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.Basics@21a06946]" name="Demo" duration-ms="10518" started-at="2019-03-21T23:57:21Z" finished-at="2019-03-21T23:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:test.Basics@21a06946]" name="OpenBrowser" duration-ms="9196" started-at="2019-03-21T23:57:31Z" finished-at="2019-03-21T23:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="lastExecution()[pri:0, instance:test.Basics@21a06946]" name="lastExecution" is-config="true" duration-ms="0" started-at="2019-03-21T23:57:41Z" finished-at="2019-03-21T23:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
       </class> <!-- test.Basics -->
     </test> <!-- Test -->
+    <test name="test" duration-ms="17" started-at="2019-03-21T18:27:41Z" finished-at="2019-03-21T18:27:41Z">
+      <class name="test.carLoanTCDataProvider">
+        <test-method status="PASS" signature="WebLoginCarloan(java.lang.String, java.lang.String)[pri:0, instance:test.carLoanTCDataProvider@546a03af]" name="WebLoginCarloan" duration-ms="1" started-at="2019-03-21T23:57:41Z" data-provider="getdata" finished-at="2019-03-21T23:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarloan -->
+        <test-method status="PASS" signature="WebLoginCarloan(java.lang.String, java.lang.String)[pri:0, instance:test.carLoanTCDataProvider@546a03af]" name="WebLoginCarloan" duration-ms="2" started-at="2019-03-21T23:57:41Z" data-provider="getdata" finished-at="2019-03-21T23:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUSername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarloan -->
+        <test-method status="PASS" signature="WebLoginCarloan(java.lang.String, java.lang.String)[pri:0, instance:test.carLoanTCDataProvider@546a03af]" name="WebLoginCarloan" duration-ms="2" started-at="2019-03-21T23:57:41Z" data-provider="getdata" finished-at="2019-03-21T23:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarloan -->
+        <test-method status="PASS" signature="APILoginCarLoan()[pri:0, instance:test.carLoanTCDataProvider@546a03af]" name="APILoginCarLoan" duration-ms="2" started-at="2019-03-21T23:57:41Z" depends-on-methods="test.carLoanTCDataProvider.WebLoginCarloan" finished-at="2019-03-21T23:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+      </class> <!-- test.carLoanTCDataProvider -->
+      <class name="test.homeLoanTCs">
+        <test-method status="PASS" signature="Bsuite()[pri:0, instance:test.homeLoanTCs@483bf400]" name="Bsuite" is-config="true" duration-ms="15" started-at="2019-03-21T23:57:21Z" finished-at="2019-03-21T23:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bsuite -->
+      </class> <!-- test.homeLoanTCs -->
+      <class name="test.Basics">
+        <test-method status="PASS" signature="ASuite()[pri:0, instance:test.Basics@21a06946]" name="ASuite" is-config="true" duration-ms="0" started-at="2019-03-21T23:57:41Z" finished-at="2019-03-21T23:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASuite -->
+      </class> <!-- test.Basics -->
+    </test> <!-- test -->
   </suite> <!-- Loan Dept -->
 </testng-results>

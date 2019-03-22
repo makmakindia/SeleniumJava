@@ -16,14 +16,15 @@ public class TestNGListenersDemo implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-		System.out.println("Successfully completed ....!PASS");
+		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		
-		
+		System.out.println("I Failed because Assertion failed, Listener executed  : "+result.getName());
+		System.out.println("RESULT : "+result );
 		
 	}
 

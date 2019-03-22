@@ -1,5 +1,6 @@
 package Test;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
@@ -30,6 +31,7 @@ public class day3 {
 	@Test(groups= {"Smoke"})
 	public void MobileLoginCarLoan() {
 		System.out.println("MobileLoginCarLoan....!");
+		Assert.assertTrue(false);
 	}
 	
 	@Test(enabled=false)

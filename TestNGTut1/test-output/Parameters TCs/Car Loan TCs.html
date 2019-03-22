@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Car Loan TCs</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Mar 23 00:07:54 IST 2019</td>
+<td>Started on:</td><td>Sat Mar 23 00:23:18 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (26 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (104 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,52 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test.day3.MobileLoginCarLoan()'><b>MobileLoginCarLoan</b><br>Test class: Test.day3</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Test.day3.MobileLoginCarLoan(day3.java:34)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1065330633", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1065330633'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at Test.day3.MobileLoginCarLoan(day3.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>Test.day3@9629756</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -78,37 +124,32 @@ function toggleAllBoxes() {
 <td title='Test.day3.APILoginCarLoan()'><b>APILoginCarLoan</b><br>Test class: Test.day3<br>Parameters: http://facebook.com, 1234567</td>
 <td></td>
 <td>0</td>
-<td>Test.day3@4f933fd1</td></tr>
+<td>Test.day3@9629756</td></tr>
 <tr>
 <td title='Test.day3.APISignInCarLoan()'><b>APISignInCarLoan</b><br>Test class: Test.day3</td>
 <td></td>
 <td>0</td>
-<td>Test.day3@4f933fd1</td></tr>
-<tr>
-<td title='Test.day3.MobileLoginCarLoan()'><b>MobileLoginCarLoan</b><br>Test class: Test.day3</td>
-<td></td>
-<td>0</td>
-<td>Test.day3@4f933fd1</td></tr>
+<td>Test.day3@9629756</td></tr>
 <tr>
 <td title='Test.day3.MobileSignOutCarLoan()'><b>MobileSignOutCarLoan</b><br>Test class: Test.day3</td>
 <td></td>
 <td>0</td>
-<td>Test.day3@4f933fd1</td></tr>
+<td>Test.day3@9629756</td></tr>
 <tr>
 <td title='Test.day3.WebLoginCarLoan()'><b>WebLoginCarLoan</b><br>Test class: Test.day3<br>Parameters: FirstSetUsername, FirstsetPassword</td>
 <td></td>
 <td>0</td>
-<td>Test.day3@4f933fd1</td></tr>
+<td>Test.day3@9629756</td></tr>
 <tr>
 <td title='Test.day3.WebLoginCarLoan()'><b>WebLoginCarLoan</b><br>Test class: Test.day3<br>Parameters: SecondsetUsername, SecondsetPassword</td>
 <td></td>
 <td>0</td>
-<td>Test.day3@4f933fd1</td></tr>
+<td>Test.day3@9629756</td></tr>
 <tr>
 <td title='Test.day3.WebLoginCarLoan()'><b>WebLoginCarLoan</b><br>Test class: Test.day3<br>Parameters: ThirdsetUsername, ThirdsetPassword</td>
 <td></td>
 <td>0</td>
-<td>Test.day3@4f933fd1</td></tr>
+<td>Test.day3@9629756</td></tr>
 </table><p>
 </body>
 </html>

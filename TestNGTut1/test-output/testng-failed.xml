@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="20" guice-stage="DEVELOPMENT" name="Failed suite [Parameters TCs]" parallel="tests">
+  <parameter name="CarLoanURL" value="http://facebook.com"/>
+  <parameter name="APIKey" value="1234567"/>
+  <parameter name="URL" value="http://google.com"/>
+  <test name="Car Loan TCs(failed)" parallel="tests">
+    <parameter name="CarLoanURL" value="http://facebook.com"/>
+    <parameter name="APIKey" value="1234567"/>
     <classes>
+      <class name="Test.RunningTestsWithoutJava">
+        <methods>
+          <include name="lastExec"/>
+        </methods>
+      </class> <!-- Test.RunningTestsWithoutJava -->
+      <class name="Test.day4">
+        <methods>
+          <include name="ASuite"/>
+        </methods>
+      </class> <!-- Test.day4 -->
+      <class name="Test.day2">
+        <methods>
+          <include name="prerequisite"/>
+        </methods>
+      </class> <!-- Test.day2 -->
       <class name="Test.day3">
         <methods>
+          <include name="MobileLoginCarLoan"/>
           <include name="BMethod"/>
-          <include name="APILoginCarLoan"/>
-          <include name="WebLoginCarLoan"/>
           <include name="BSuite"/>
         </methods>
       </class> <!-- Test.day3 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Car Loan TCs(failed) -->
+</suite> <!-- Failed suite [Parameters TCs] -->

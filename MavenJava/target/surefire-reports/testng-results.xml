@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53" started-at="2019-03-23T17:08:55Z" finished-at="2019-03-23T17:08:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53" started-at="2019-03-23T17:08:55Z" finished-at="2019-03-23T17:08:55Z">
+      <class name="qaclickarun.AppiumTest">
+        <test-method status="PASS" signature="NavigateAppAndroid()[pri:0, instance:qaclickarun.AppiumTest@50f8360d]" name="NavigateAppAndroid" duration-ms="0" started-at="2019-03-23T17:08:55Z" finished-at="2019-03-23T17:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateAppAndroid -->
+        <test-method status="PASS" signature="IOSApps()[pri:0, instance:qaclickarun.AppiumTest@50f8360d]" name="IOSApps" duration-ms="0" started-at="2019-03-23T17:08:55Z" finished-at="2019-03-23T17:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+      </class> <!-- qaclickarun.AppiumTest -->
+      <class name="qaclickarun.RESTAPITest">
+        <test-method status="PASS" signature="postJira()[pri:0, instance:qaclickarun.RESTAPITest@13c78c0b]" name="postJira" duration-ms="0" started-at="2019-03-23T17:08:55Z" finished-at="2019-03-23T17:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:qaclickarun.RESTAPITest@13c78c0b]" name="deleteTwitter" duration-ms="0" started-at="2019-03-23T17:08:55Z" finished-at="2019-03-23T17:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+      </class> <!-- qaclickarun.RESTAPITest -->
+      <class name="qaclickarun.SeleniumTest">
+        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:qaclickarun.SeleniumTest@2cb4c3ab]" name="browserAutomation" duration-ms="0" started-at="2019-03-23T17:08:55Z" finished-at="2019-03-23T17:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method status="PASS" signature="elemntsUI()[pri:0, instance:qaclickarun.SeleniumTest@2cb4c3ab]" name="elemntsUI" duration-ms="0" started-at="2019-03-23T17:08:55Z" finished-at="2019-03-23T17:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elemntsUI -->
+      </class> <!-- qaclickarun.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

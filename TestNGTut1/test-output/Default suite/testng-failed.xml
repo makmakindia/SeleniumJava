@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Test.day3">
+      <class name="Test.globalParametersDemo">
         <methods>
-          <include name="BMethod"/>
-          <include name="APILoginCarLoan"/>
-          <include name="WebLoginCarLoan"/>
-          <include name="BSuite"/>
+          <include name="WebLogin"/>
         </methods>
-      </class> <!-- Test.day3 -->
+      </class> <!-- Test.globalParametersDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

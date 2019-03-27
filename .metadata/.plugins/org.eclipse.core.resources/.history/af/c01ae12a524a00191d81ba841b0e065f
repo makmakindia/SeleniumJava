@@ -1,7 +1,0 @@
-package AccessDemoDefaultPkg;
-
-public class j03ProtectedAccessDemo {
-
-	
-	protected void msg() {System.out.println("protected method pkg : AccessDemoDefaultpkg ");};
-}

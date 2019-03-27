@@ -1,7 +1,0 @@
-package InteerfaceConcept;
-
-public interface bankingClient {
-	public void paycreditCard();
-	
-
-}

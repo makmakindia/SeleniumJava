@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="arunacademy.listeners"/>
+  </listeners>
+  <test name="arunacademy ValidateTitles(failed)">
+    <classes>
+      <class name="arunacademy.HomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- arunacademy.HomePage -->
+      <class name="arunacademy.ValidateTitles">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- arunacademy.ValidateTitles -->
+      <class name="arunacademy.validationNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- arunacademy.validationNavigationBar -->
+    </classes>
+  </test> <!-- arunacademy ValidateTitles(failed) -->
+</suite> <!-- Failed suite [Suite] -->

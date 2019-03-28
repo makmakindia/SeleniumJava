@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="arunacademy.listeners"/>
+		<listener class-name="resources.ExtentReporterNG"/>
+	</listeners>
+	
+	<test name="arunacademy HomePage">
+		<classes>
+			<class name="arunacademy.HomePage" />
+		</classes>
+	</test>
+
+	<test name="arunacademy validationNavigationBar">
+		<classes>
+			<class name="arunacademy.validationNavigationBar" />
+		</classes>
+	</test>
+	<test name="arunacademy ValidateTitles">
+		<classes>
+			<class name="arunacademy.ValidateTitles" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

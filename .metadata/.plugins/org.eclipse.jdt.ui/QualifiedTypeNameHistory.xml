@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
-<fullyQualifiedTypeName name="javax.xml.xpath.XPath"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
-<fullyQualifiedTypeName name="InterfaceJava.GrandSon"/>
-<fullyQualifiedTypeName name="InterfaceJava.grandFather"/>
-<fullyQualifiedTypeName name="InteerfaceConcept.DomainClient"/>
-<fullyQualifiedTypeName name="InteerfaceConcept.Developing"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="superKeyDemo.parentDemo"/>
 <fullyQualifiedTypeName name="superKeyDemo.childDemo"/>
 <fullyQualifiedTypeName name="superKeyThis_Demo.thisKeyDemo"/>
 <fullyQualifiedTypeName name="javaOOPS.AccessModifierScope"/>
-<fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="PkgDemo2.demo2ClassS2"/>
 <fullyQualifiedTypeName name="PkgDemo1.demo1ClassS1"/>
 <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
@@ -42,12 +26,10 @@
 <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
 <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
 <fullyQualifiedTypeName name="org.testng.ITestListener"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
 <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
@@ -60,4 +42,22 @@
 <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
 <fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
 <fullyQualifiedTypeName name="java.util.logging.LogManager"/>
+<fullyQualifiedTypeName name="java.lang.Byte"/>
+<fullyQualifiedTypeName name="ObjectReporsitory.RediffLoginpage"/>
+<fullyQualifiedTypeName name="ObjectReporsitory.RediffHomepage"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+<fullyQualifiedTypeName name="ObjectReporsitory.RediffLoginpagePF"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By.ByCssSelector"/>
+<fullyQualifiedTypeName name="PageObjects.LandingPage"/>
+<fullyQualifiedTypeName name="PageObjects.LoginPage"/>
 </qualifiedTypeNameHistroy>
